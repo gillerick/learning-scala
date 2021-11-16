@@ -20,7 +20,7 @@ class DemoTest extends FunSuite with BeforeAndAfterEach {
 
 
   test("Addition Test (assertResult)"){
-    assertResult(7){
+    assertResult(7, "A clue"){
       Demo.addition(4, 3)
     }
   }
